@@ -43,6 +43,6 @@ if __name__ == "__main__":
     username = args.username.upper()
 
     # Call the function to open the file with VS Code
-    open_with_vscode(DEV_PATH, f"THAIBEV-KAFKAUSER-{username}.yml")
-    open_with_vscode(UAT_PATH, f"THAIBEV-KAFKAUSER-{username}.yml")
-    open_with_vscode(PRD_PATH, f"THAIBEV-KAFKAUSER-{username}.yml")
+    open_with_vscode(DEV_PATH, f"KAFKAUSER-{username}.yml")
+    open_with_vscode(UAT_PATH, f"KAFKAUSER-{username}.yml")
+    open_with_vscode(PRD_PATH, f"KAFKAUSER-{username}.yml")
